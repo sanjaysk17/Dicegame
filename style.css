@@ -1,0 +1,17 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(
+        90deg,rgb(64, 64, 64),rgb(187, 186, 186),grey
+    );
+}
+h1{
+    margin-left: 250px;
+    margin-top: 25px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+}
