@@ -5,7 +5,7 @@ player2=Math.floor(player2*6+1);
 if (player1===player2){
     document.querySelector("h1").innerHTML="DRAW";
 }
-else if (player1>=player2){
+else if (player1>player2){
     document.querySelector("h1").innerHTML="Player one Wins";
 }
 else
